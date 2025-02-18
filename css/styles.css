@@ -25,6 +25,11 @@ body {
     letter-spacing: 0.03em; 
     text-transform: uppercase; 
     color: #4d5ae5; 
+    text-decoration: none;
+}
+
+.header__container a {
+    list-style: none;
 }
 
 .header .logo-text.dark__text {
@@ -38,9 +43,19 @@ body {
     gap: 76px;
 }
 
+.header__contacts-text,
+.header__menu-item {
+    list-style: none;
+    text-decoration: none;
+}
+
 .logo {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* .logo-text {
