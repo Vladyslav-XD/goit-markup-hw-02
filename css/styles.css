@@ -7,10 +7,10 @@ body {
 }
 
 .header {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     margin-left: 156px;
     margin-right: 156px;
     padding: 24px 0;
@@ -37,9 +37,9 @@ body {
 }
 
 .header__container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; */
     gap: 76px;
 }
 
@@ -50,10 +50,10 @@ body {
 }
 
 .logo {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row; */
     list-style: none;
     text-decoration: none;
 }
@@ -87,8 +87,8 @@ body {
 }
 
 .header__menu {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     gap: 40px;
 }
 
@@ -126,8 +126,8 @@ body {
 }
 
 .header__contacts-list {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     gap: 40px;
 }
 
@@ -142,10 +142,10 @@ body {
 }
 
 .main {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     gap: 48px;
     background-color: #2E2F42;
     padding: 188px 472px;
@@ -188,10 +188,10 @@ body {
 }
 
 .features {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: #fff;
     padding: 120px 156px;
 }
@@ -208,18 +208,18 @@ body {
 }
 
 .features__container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     gap: 24px;
 }
 
 .features__container-item {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
     gap: 8px;
     width: 264px;
 }
@@ -242,10 +242,10 @@ body {
 }
 
 .team {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background-color: #F4F4FD;
     padding: 120px 156px;
 }
@@ -263,10 +263,10 @@ body {
 }
 
 .team__container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 100%;
     gap: 24px;
 }
@@ -274,10 +274,10 @@ body {
 .team__container-item {
     width: 264px;
     height: 380px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -309,10 +309,10 @@ body {
 }
 
 .footer {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
     padding: 100px 156px;
     gap: 16px;
     background-color: #2E2F42;
@@ -347,10 +347,10 @@ body {
 }
 
 .portfolio {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     padding: 120px 156px;
     gap: 72px;
     background-color: #fff;
@@ -367,10 +367,10 @@ body {
 }
 
 .portfolio__container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     gap: 24px;
     row-gap: 48px;
     box-sizing: border-box;
@@ -378,8 +378,8 @@ body {
 }
 
 .portfolio__container-item {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     width: 360px;
     height: 420px;
     background-color: #FFFFFF;
